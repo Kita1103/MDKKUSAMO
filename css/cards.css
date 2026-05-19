@@ -1,0 +1,230 @@
+.department-section {
+  background: #f5f3f2;
+  border-radius: 24px;
+  padding: 90px 24px;
+}
+
+.department-title {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #111827;
+  font-family: "Prompt", sans-serif;
+}
+
+.department-subtitle {
+  color: #6b7280;
+  margin-top: 10px;
+  font-size: 1.05rem;
+  font-weight: 300;
+}
+
+/* CARD */
+
+.department-card {
+  background: white;
+  border-radius: 24px;
+  padding: 35px 20px;
+
+  min-height: 225px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  transition: all 0.3s ease;
+
+  box-shadow: 0 4px 14px rgba(0,0,0,0.04);
+
+  border: 1px solid transparent;
+}
+
+.department-card:hover {
+  transform: translateY(-6px);
+
+  box-shadow: 0 12px 28px rgba(0,0,0,0.08);
+}
+
+/* TITLE */
+
+.department-card h6 {
+  margin-top: 18px;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #111827;
+}
+
+/* ICON */
+
+.icon-circle {
+  width: 68px;
+  height: 68px;
+
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 26px;
+}
+
+/* ========================= */
+/* ADMIN */
+/* ========================= */
+
+.admin {
+  background: #f3ebe7;
+  color: #A17A60;
+}
+
+.department-card.admin-card:hover {
+  border-color: #A17A60;
+}
+
+/* ========================= */
+/* DIGITAL */
+/* ========================= */
+
+.digital {
+  background: #FFF3BF;
+  color: #E85D9E;
+}
+
+.department-card.digital-card:hover {
+  border-color: #E85D9E;
+}
+
+/* ========================= */
+/* INTERNAL */
+/* ========================= */
+
+.internal {
+  background: #FCE7EF;
+  color: #9D3250;
+}
+
+.department-card.internal-card:hover {
+  border-color: #9D3250;
+}
+
+/* ========================= */
+/* EXTERNAL */
+/* ========================= */
+
+.external {
+  background: #EAF4FA;
+  color: #112957;
+}
+
+.department-card.external-card:hover {
+  border-color: #7DB0CD;
+}
+
+/* ========================= */
+/* UNIVERSITY */
+/* ========================= */
+
+.university {
+  background: #FFE8D6;
+  color: #F49D5F;
+}
+
+.department-card.university-card:hover {
+  border-color: #F49D5F;
+}
+
+/* ========================= */
+/* ACADEMIC */
+/* ========================= */
+
+.academic {
+  background: #EDF3FB;
+  color: #2F5F9C;
+}
+
+.department-card.academic-card:hover {
+  border-color: #2F5F9C;
+}
+
+/* ========================= */
+/* STRATEGY */
+/* ========================= */
+
+.strategy {
+  background: #EAF5EE;
+  color: #318D65;
+}
+
+.department-card.strategy-card:hover {
+  border-color: #318D65;
+}
+
+/* ========================= */
+/* QUALITY */
+/* ========================= */
+
+.quality {
+  background: #EEF2C8;
+  color: #73503D;
+}
+
+.department-card.quality-card:hover {
+  border-color: #BDC96C;
+}
+
+/* ========================= */
+/* MEDIA */
+/* ========================= */
+
+.media {
+  background: #E8F6FC;
+  color: #2294BC;
+}
+
+.department-card.media-card:hover {
+  border-color: #2294BC;
+}
+
+/* ========================= */
+/* RADIOLOGY */
+/* ========================= */
+
+.radiology {
+  background: #EFE5F5;
+  color: #F26B3F;
+}
+
+.department-card.radiology-card:hover {
+  border-color: #BBA6CB;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 992px) {
+
+  .department-title {
+    font-size: 2.3rem;
+  }
+
+  .department-subtitle {
+    font-size: 0.95rem;
+  }
+
+  .department-card {
+    min-height: 225px;
+    padding: 35px 20px;
+  }
+
+  .icon-circle {
+    width: 58px;
+    height: 58px;
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 992px) {
+  .custom-col {
+    width: 20%;
+  }
+}
