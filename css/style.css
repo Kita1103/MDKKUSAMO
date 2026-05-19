@@ -17,7 +17,7 @@
 
 body {
   background: linear-gradient(135deg, var(--color-gray-50) 0%, var(--color-gray-100) 100%);
-  font-family: "Prompt", sans-serif;
+  font-family: 'Noto Sans Thai', sans-serif;
   min-height: 100vh;
   color: #334155;
   margin: 0;
@@ -37,14 +37,26 @@ body {
 .samo-navbar {
   position: sticky;
   top: 10px;
-  left: 10px;
-  width: 99%;
+
   z-index: 1000;
+
   background: #ffffff;
-  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+
   padding: 1rem 2rem;
-  border-radius: 20px 20px 20px 20px;
-  margin-bottom: 2rem;
+  border-radius: 20px;
+
+  margin: 0 10px 2rem 10px;
+
+  font-family: "Prompt", sans-serif;
+}
+
+.nav-center > .nav-item {
+  margin-right: -20px;
+}
+
+.nav-center > .nav-item:last-child {
+  margin-right: 0;
 }
 
 .brand-fixed {
@@ -72,9 +84,10 @@ body {
 }
 
 .nav-center {
-  flex: 1;
+  display: flex;
   justify-content: center;
-  gap: 0;
+  flex: 1;
+  gap: 18px;
 }
 
 .samo-navbar .container {
@@ -84,8 +97,9 @@ body {
 .nav-pills .nav-link {
   color: #475569;
   font-weight: 500;
+  font-size: 15px;
   border-radius: 10px;
-  margin: 0 5px;
+  margin: 0 0.5px;
   transition: all 0.3s ease;
   cursor: pointer;
 }
@@ -107,6 +121,7 @@ body {
   color: var(--color-gray-900);
   padding: 10px 14px;
   transition: background-color 0.15s ease, color 0.15s ease;
+  font-family: "Prompt", sans-serif;
 }
 
 .offcanvas .nav-link:hover {
