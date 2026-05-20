@@ -26,7 +26,7 @@
     <nav class="navbar navbar-expand-lg samo-navbar">
         <div class="container d-flex align-items-center">
         <!-- Logo -->
-            <a class="navbar-brand brand-fixed" href="../index.html">
+            <a class="navbar-brand brand-fixed" href="index.html">
                 <span class="brand-mdkku h3 mb-0">MDKKU</span><span class="brand-samo h3 mb-0">SAMO</span>
             </a>
             <!-- Hamburger -->
@@ -37,7 +37,7 @@
             <div class="collapse navbar-collapse">
                 <ul class="nav nav-pills nav-center">
                     <li class="nav-item">
-                        <a class="nav-link" href="../index.html">Home</a>
+                        <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Activities</a>
@@ -45,22 +45,28 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">SAMOSHOP</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Database</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="vitalsound.html">VitalSound</a>
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown" id="aboutDropdown">
+                        <a class="nav-link" href="#" id="aboutLink">
+                            Tools
+                            <i class="bi bi-chevron-down ms-1 small"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="html/vitalsound.html">VitalSound</a></li>
+                            <li><a class="dropdown-item" href="#">PR Form</a></li>
+                            <li><a class="dropdown-item" href="#">Database</a></li>
+                        </ul>
                     </li>
                     <!-- Dropdown -->
-                        <li class="nav-item dropdown" id="aboutDropdown">
+                    <li class="nav-item dropdown" id="aboutDropdown">
                         <a class="nav-link" href="#" id="aboutLink">
                             About Us
                             <i class="bi bi-chevron-down ms-1 small"></i>
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="team.html">Our Team</a></li>
+                            <li><a class="dropdown-item" href="html/team.html">Our Team</a></li>
                             <li><a class="dropdown-item" href="#">Our Vision</a></li>
-                            <li><a class="dropdown-item" href="#">Our Mission</a></li>
+                            <li><a class="dropdown-item" href="html/mission.html">Our Mission</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -78,14 +84,19 @@
         <div class="divider"></div>
         <div class="offcanvas-body">
             <ul class="nav flex-column">
-                <li><a class="nav-link" href="../index.html">Home</a></li>
+                <li><a class="nav-link" href="index.html">Home</a></li>
                 <li><a class="nav-link" href="#">Activities</a></li>
                 <li><a class="nav-link" href="#">SAMOSHOP</a></li>
-                <li><a class="nav-link" href="#">Database</a></li>
-                <li><a class="nav-link" href="vitalsound.html">VitalSound</a></li>
+
+                <li>
+                    <a class="nav-link" href="#">Tools</a>
+                    <a class="nav-link ms-3" href="html/vitalsound.html">VitalSound</a>
+                    <a class="nav-link ms-3" href="#">PR Form</a>
+                    <a class="nav-link ms-3" href="#">Database</a>
+                </li>
                 <li>
                     <a class="nav-link" href="#">About Us</a>
-                    <a class="nav-link ms-3" href="team.html">Our Team</a>
+                    <a class="nav-link ms-3" href="html/team.html">Our Team</a>
                     <a class="nav-link ms-3" href="#">Our Vision</a>
                     <a class="nav-link ms-3" href="#">Our Mission</a>
                 </li>
