@@ -1,0 +1,182 @@
+.tools-section {
+  background: #f5f3f2;
+  border-radius: 24px;
+  padding: 90px 24px;
+}
+
+.tools-title {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #111827;
+  font-family: "Prompt", sans-serif;
+}
+
+.tools-subtitle {
+  color: #6b7280;
+  margin-top: 10px;
+  font-size: 1.05rem;
+  font-weight: 300;
+}
+
+/* CARD */
+
+.tools-card {
+  background: white;
+  border-radius: 24px;
+  padding: 35px 20px;
+
+  min-height: 225px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  transition: all 0.3s ease;
+
+  box-shadow: 0 4px 14px rgba(0,0,0,0.04);
+
+  border: 1px solid transparent;
+}
+
+.tools-card:hover {
+  transform: translateY(-6px);
+
+  box-shadow: 0 12px 28px rgba(0,0,0,0.08);
+}
+
+/* TITLE */
+
+.tools-card h6 {
+  margin-top: 18px;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #111827;
+}
+
+/* ICON */
+
+.icon-circle {
+  width: 68px;
+  height: 68px;
+
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 26px;
+}
+
+/* ARROW */
+
+.card-arrow {
+  position: absolute;
+
+  bottom: 16px;
+  right: 25px;
+
+  font-size: 25px;
+
+  opacity: 0.5;
+
+  transition: all 0.25s ease;
+}
+
+.tools-card:hover .card-arrow {
+  opacity: 1;
+  transform: translateX(4px);
+}
+
+/* ========================= */
+/* VitalSound */
+/* ========================= */
+
+.vitalsound {
+  background: #EAF5EE;
+  color: #318D65;
+}
+
+.tools-card.vitalsound-card:hover {
+  border-color: #1F2A26;
+}
+
+/* ========================= */
+/* PR Form */
+/* ========================= */
+
+.prform {
+  background: #FFF3BF;
+  color: #E85D9E;
+}
+
+.tools-card.prform-card:hover {
+  border-color: #7C6ACF;
+}
+
+/* ========================= */
+/* Bookings */
+/* ========================= */
+
+.bookings {
+  background: #EEF2C8;
+  color: #73503D;
+}
+
+.tools-card.bookings-card:hover {
+  border-color: #FBDE8F;
+}
+
+/* ========================= */
+/* Database */
+/* ========================= */
+
+.Database {
+  background: #EDF3FB;
+  color: #2F5F9C;
+}
+
+.tools-card.Database-card:hover {
+  border-color: #D6B585;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 992px) {
+
+  .tools-title {
+    font-size: 2.3rem;
+  }
+
+  .tools-subtitle {
+    font-size: 0.95rem;
+  }
+
+  .tools-card {
+    min-height: 225px;
+    padding: 35px 20px;
+  }
+
+  .icon-circle {
+    width: 58px;
+    height: 58px;
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 992px) {
+  .custom-col {
+    width: 20%;
+  }
+}
+
+#tools {
+  scroll-margin-top: 80px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
