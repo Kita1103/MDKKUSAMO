@@ -26,6 +26,7 @@
   padding: 35px 20px;
 
   min-height: 225px;
+  max-height: 225px;
 
   display: flex;
   flex-direction: column;
