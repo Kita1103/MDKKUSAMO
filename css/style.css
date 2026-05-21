@@ -194,6 +194,53 @@ body {
   margin-bottom: 4px;
 }
 
+/* NAVBAR CART */
+
+.cart-nav {
+  position: relative;
+  width: 44px;
+  height: 44px;
+  border-radius: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #111827;
+  transition: 0.25s ease;
+  margin-left: 14px;
+}
+
+/* HOVER ONLY */
+
+.cart-nav:hover {
+  background: #f3f4f6;
+  color: #FF6F30;
+}
+
+/* ICON */
+
+.cart-nav i {
+  font-size: 20px;
+}
+
+/* BADGE */
+
+.cart-badge {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #FF6F30;
+  color: white;
+  font-size: 11px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
  .my-box { 
      border: 2px solid #333; /* Adds a border */
      padding: 20px;         /* Space inside the box */
